@@ -7,9 +7,9 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 function Astronaut() {
-  
+
   const group = useRef();
-  const { scene, animations } = useGLTF("/src/assets/astronaut_fixed.glb");
+  const { scene, animations } = useGLTF("/assets/astronaut_fixed.glb");
   const { actions } = useAnimations(animations, group);
 
   useEffect(() => {
