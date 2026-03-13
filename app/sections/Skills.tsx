@@ -146,7 +146,7 @@ import { SplitText } from 'gsap/all';
                 {
                     skillLists.map((skill, index) => (
                         <div key={index} className='flex flex-col items-center lg:flex-1 gap-1 px-3'>
-                            <img src={skill.svgPath} alt="" className='max-w-10'/>
+                            <img src={skill.svgPath} alt="" className='max-w-10 min-w-10 aspect-square'/>
                             <p>{skill.name}</p>
                         </div>
                     ))
