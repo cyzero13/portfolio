@@ -60,7 +60,7 @@ const Experience = () => {
             <ExperienceCard
                 title={"R & D Engineer"}
                 years={2}
-                company={"Imperial Homes"}
+                company={"Advance Word Solution"}
                 skills={["ReactJS", "NextJS", "Unity", "JAVASCRIPT", "BLENDER", "TAILWINDCSS", "NODEJS"]}
                 color={"#222123"}
                 bg={"#faeade"}
@@ -73,7 +73,7 @@ const Experience = () => {
             <ExperienceCard
                 title={"3D Full Stack Web Developer"}
                 years={2}
-                company={"Imperial Homes"}
+                company={"Realhomes"}
                 skills={["ThreeJS", "Laravel", "Javascript", "Livewire", "TAILWINDCSS", "Alpine", "Git", "AWS", "BLENDER", "GSAP"]}
                 color={"#faeade"}
                 bg={"#7F3B2D"}

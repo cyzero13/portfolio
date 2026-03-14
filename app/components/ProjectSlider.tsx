@@ -13,6 +13,13 @@ const ProjectSlider = () => {
             bgSrc: "./images/mojito-bg.png",
             rotation: "md:rotate-[-8deg] rotate-0",
             link: "https://cyzero13.github.io/mojito/"
+        },{
+            name: "Earth",
+            color: "black",
+            imgSrc: "./images/earth.png",
+            bgSrc: "./images/earth.png",
+            rotation: "md:rotate-[8deg] rotate-0",
+            link: "https://cyzero13.github.io/earth/"
         },
 
     ];
@@ -93,18 +100,6 @@ const ProjectSlider = () => {
                     alt=""
                     className="absolute bottom-0 border rounded-4xl overflow-x-hidden"
                     />
-{/* 
-                    <img
-                    src={project.imgSrc}
-                    alt=""
-                    className="absolute left-1/2 -translate-x-1/2 bottom-0 md:h-full h-80"
-                    /> */}
-
-                    {/* <img
-                    src={project.imgSrc}
-                    alt=""
-                    className="absolute md:top-0 md:bottom-auto bottom-10 w-full"
-                    /> */}
 
                     <h1 className='absolute md:bottom-10 md:left-10 bottom-5 left-5 text-milk md:text-6xl text-3xl font-semibold uppercase tracking-tighter'>{project.name}</h1>
                 </a>
