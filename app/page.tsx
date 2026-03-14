@@ -8,6 +8,7 @@ import Projects from "./sections/Projects";
 import ProjectLists from "./sections/ProjectLists";
 import { useGSAP } from "@gsap/react";
 import Skills from "./sections/Skills";
+import Experience from "./sections/Experience";
 
 gsap.registerPlugin(ScrollTrigger, SplitText, ScrollSmoother);
 export default function Home() {
@@ -27,6 +28,7 @@ export default function Home() {
           <Projects />
           <ProjectLists />
           <Skills />
+          <Experience />
         </div>
       </div>
     </div>
