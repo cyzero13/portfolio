@@ -9,6 +9,7 @@ import ProjectLists from "./sections/ProjectLists";
 import { useGSAP } from "@gsap/react";
 import Skills from "./sections/Skills";
 import Experience from "./sections/Experience";
+import Contact from "./sections/Contact";
 
 gsap.registerPlugin(ScrollTrigger, SplitText, ScrollSmoother);
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
           <ProjectLists />
           <Skills />
           <Experience />
+          <Contact />
         </div>
       </div>
     </div>

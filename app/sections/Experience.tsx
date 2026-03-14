@@ -23,24 +23,19 @@ const Experience = () => {
             clipPath: "polygon(0% 0%, 100% 0, 100% 100%, 0% 100%)",
             ease: "circ.out",
         })
-        // .to(".benefit-section .second-title", {
-        //     duration: 1,
-        //     opacity: 1,
-        //     clipPath: "polygon(0% 0%, 100% 0, 100% 100%, 0% 100%)",
-        //     ease: "circ.out",
-        // })
-        // .to(".benefit-section .third-title", {
-        //     duration: 1,
-        //     opacity: 1,
-        //     clipPath: "polygon(0% 0%, 100% 0, 100% 100%, 0% 100%)",
-        //     ease: "circ.out",
-        // })
-        // .to(".benefit-section .fourth-title", {
-        //     duration: 1,
-        //     opacity: 1,
-        //     clipPath: "polygon(0% 0%, 100% 0, 100% 100%, 0% 100%)",
-        //     ease: "circ.out",
-        // });
+        .to(".experience-section .second-title", {
+            duration: 1,
+            opacity: 1,
+            clipPath: "polygon(0% 0%, 100% 0, 100% 100%, 0% 100%)",
+            ease: "circ.out",
+        })
+        .to(".experience-section .third-title", {
+            duration: 1,
+            opacity: 1,
+            clipPath: "polygon(0% 0%, 100% 0, 100% 100%, 0% 100%)",
+            ease: "circ.out",
+        })
+
     });
   return (
     <section className="experience-section min-h-dvh bg-black overflow-hidden relative">
@@ -71,7 +66,7 @@ const Experience = () => {
                 bg={"#faeade"}
                 bgSkill={'white'}
                 skillColor={'#222123'}
-                className={"first-title -rotate-3 relative z-10"}
+                className={"second-title -rotate-3 relative z-10"}
                 borderColor={"#222123"}
             />
       
@@ -79,12 +74,12 @@ const Experience = () => {
                 title={"3D Full Stack Web Developer"}
                 years={2}
                 company={"Imperial Homes"}
-                skills={["ThreeJS", "Laravel", "Javascript", "Livewire", "TAILWINDCSS", "Alpine", "Git", "AWS", "BLENDER"]}
+                skills={["ThreeJS", "Laravel", "Javascript", "Livewire", "TAILWINDCSS", "Alpine", "Git", "AWS", "BLENDER", "GSAP"]}
                 color={"#faeade"}
                 bg={"#7F3B2D"}
                 bgSkill={'#faeade'}
                 skillColor={'white'}
-                className={"first-title rotate-3 relative z-10"}
+                className={"third-title rotate-3 relative z-10"}
                 borderColor={"#222123"}
             />
 
